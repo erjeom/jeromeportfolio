@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jerome S. Villapa | Web Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <nav>
+   <a class="logo" href="#home">JSV</a>
+   <ul id="links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+   </ul>
+   <div class="tools">
+    <button id="theme" aria-label="Toggle theme">🌓</button>
+    <button id="menu" aria-label="Menu">☰</button>
+   </div>
+  </nav>
+ </div>
+</header>
+
+<main class="wrap">
+  <div class="hero" id="home">
+   <img class="profile" src="profile.jpg" alt="Jerome S. Villapa">
+   <div class="hero-text">
+    <small>HELLO, I’M</small>
+    <h1>Jerome S. Villapa</h1>
+    <p>Entry-level web developer and Computer Engineering graduate from Pangasinan, Philippines.</p>
+    <div class="btns">
+     <a class="btn main" href="#projects">View my work</a>
+     <a class="btn" href="#contact">Contact me</a>
+    </div>
+   </div>
+  </div>
+
+ <section id="about" class="reveal">
+  <h2>About me</h2>
+  <p>I graduated with a BS in Computer Engineering from the University of Urdaneta City in September 2025. During my internship at the National Telecommunications Commission in Quezon City, I did technical support and built apps as a software developer. I enjoy turning ideas into working tools, from web portals to hardware-connected systems.</p>
+ </section>
+
+ <section id="skills" class="reveal">
+  <h2>Skills</h2>
+  <div class="grid">
+   <div class="card"><h3>Programming</h3><p>Languages I use for school and personal projects.</p>
+    <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">MySQL</span></div></div>
+   <div class="card"><h3>Engineering</h3><p>Hardware and systems work.</p>
+    <div class="tags"><span class="tag">Embedded systems</span><span class="tag">IoT</span><span class="tag">Troubleshooting</span></div></div>
+   <div class="card"><h3>Office</h3><p>Documentation and records.</p>
+    <div class="tags"><span class="tag">MS Word</span><span class="tag">Excel</span><span class="tag">Paperwork</span></div></div>
+  </div>
+ </section>
+
+ <section id="projects" class="reveal">
+  <h2>Projects</h2>
+  <div class="grid">
+   <div class="card"><span class="badge">🏆 Best Thesis</span><h3>SmartBin</h3>
+    <p>A smart bin that sorts plastic bottles by type, detects water inside and bottle color, and rejects other trash. Users earn points to exchange for school supplies, and a student portal shows their points.</p>
+    <div class="tags"><span class="tag">HTML</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">MySQL</span><span class="tag">phpMyAdmin</span></div>
+    <p style="margin:12px 0 0"><a href="https://github.com/Nazeeee0214/SmartBin" target="_blank" rel="noopener">View on GitHub →</a></p></div>
+
+   <div class="card"><h3>Test Scanner App</h3>
+    <p>An app that scans a test paper with the phone camera and shows the score right away. Built during my NTC internship.</p></div>
+  </div>
+ </section>
+
+ <section id="experience" class="reveal">
+  <h2>Experience</h2>
+  <div class="job"><h3>Administrative Aide III</h3><span>Conrado F. Estrella Regional Medical and Trauma Center, Rosales, Pangasinan · Nov 2025</span>
+   <p>PhilHealth clerk: collecting, checking and scanning patient charts and sending them to PhilHealth for record tracking.</p></div>
+  <div class="job"><h3>Technical Support (Intern)</h3><span>National Telecommunications Commission, Quezon City · Aug 2024</span>
+   <p>Hardware and software troubleshooting, plus developing apps for the office.</p></div>
+  <div class="job"><h3>BS Computer Engineering</h3><span>University of Urdaneta City, Pangasinan · Sep 2025</span></div>
+ </section>
+
+ <section id="contact" class="reveal">
+  <h2>Contact</h2>
+  <div class="card">
+   <p>Want to work together or just say hi? Find me here:</p>
+   <div class="btns" style="margin-top:0">
+    <a class="btn main" href="https://github.com/erjeom" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/jerome-villapa2/" target="_blank" rel="noopener">LinkedIn</a>
+   </div>
+  </div>
+ </section>
+</main>
+
+<footer>© <span id="year"></span> Jerome S. Villapa</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
